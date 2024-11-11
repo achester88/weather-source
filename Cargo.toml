@@ -3,6 +3,9 @@ name = "weather-source"
 version = "0.1.0"
 edition = "2021"
 authors = ["achester88"]
+license = "MIT"
+description = "A cli tool for checking the weather"
+repository = "https://github.com/achester88/weather-source"
 
 [dependencies]
 reqwest = { version = "0.12", features = ["json"] }
